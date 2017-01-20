@@ -14,8 +14,8 @@ keep_files:
 
 
 # Site settings
-title: Airspace
-subtitle: "A free HTML5 agency template"
+title: Bobby Abroad
+subtitle: "Some documentation of Bobby's abroad trip!"
 # Base URL of site. It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
@@ -40,3 +40,7 @@ descriptions:
 
 source: /Users/bobbylcraig/Documents/GitHub/abroad-blog-src/
 destination: /Users/bobbylcraig/Documents/GitHub/abroadblog.github.io/
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+gems: [jekyll-paginate]
