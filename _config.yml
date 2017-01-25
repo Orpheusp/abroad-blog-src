@@ -39,8 +39,6 @@ descriptions:
     desc: "Just some placeholder posts, lorem ipsum and the rest."
 
 source: /Users/bobbylcraig/Documents/GitHub/abroad-blog-src/
-destination: /Users/bobbylcraig/Documents/GitHub/abroadblog.github.io/
-paginate: 5
-paginate_path: "/blog/page:num/"
+destination: /Users/bobbylcraig/Documents/GitHub/bobbyabroad.github.io/
 
 gems: [jekyll-paginate]
