@@ -1,8 +1,11 @@
 ---
 layout: post
 title: "The Post-Party Period"
+location: "Bremen"
 author: Bobby Craig
 maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2391.751942896602!2d8.645921315931519!3d53.16848997994206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b12ca162241e61%3A0x314e4de35c3436cb!2sCampus+Ring+3%2C+28759+Bremen%2C+Germany!5e0!3m2!1sen!2sus!4v1485699127404"
+to-class:
+from-class:
 ---
 
 Since my last post, I've made some pretty good friends that are other exchange students. I really enjoy hanging out with them and we have had a lot of fun the past two days. We all met on our trip to Bremen on Saturday afternoon. Friday night was rather interesting and I met many of my roommates friends (as well as some exchange students that showed up). Julius knows how to throw a really great party and is always pushing me out of my comfort zone, which is nice but also a little unnerving at times.

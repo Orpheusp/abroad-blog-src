@@ -1,18 +1,39 @@
 ---
-layout: page
-title: Home
-permalink: /
+layout: default
 ---
 
-<!-- Slider Start -->
-<section id="slider">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-10 col-md-offset-1 text-center">
-        <div class="block">
-          <h1 class="animated fadeInUp">A Trip Across Europe<br /><span style="font-weight: 400;">Bobby's Trip to Germany</span></h1>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+<div class="hero-image main">
+	<h1 class="header-title">
+    <span class="header-title__main">Im Ausland</span>
+    <span class="header-title__part">A European Adventure</span>
+    <span class="header-title__sub">
+      An interactive travel log by <a style="color: white;" href="http://bobbylcraig.com/">Bobby Craig</a>.
+    </span>
+  </h1>
+</div>
+<div class="hero-image intro">
+	<em>&ldquo;I'm broke as hell,<br>but at least I'm rich in memories.&rdquo;</em>
+  <span>Dariya Koleva</span>
+</div>
+<div class="container story">
+	<div class="row">
+		<div class="col-md-6 fuzz-out">
+			{% for post in site.posts reversed %}
+				<h1>{{ post.title }}</h1>
+				<hr>
+				<h3>{{ post.location }}</h3>
+				<h5><em>{{ post.date | date: "%B %-d, %Y" }}</em></h5>
+				<hr>
+				{{ post.content }}
+				<br>
+			{% endfor %}
+			<div class="map-view"></div>
+		</div>
+		<div class="fixed-box">
+			{% include map.html %}
+		</div>
+	</div>
+</div>
+<div class="hero-image intro">
+	<em>&ldquo;The end.&rdquo;</em> <span>Bobby Craig</span>
+</div>

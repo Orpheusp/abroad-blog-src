@@ -1,8 +1,11 @@
 ---
 layout: post
 title: "An Hour Before Departure"
+location: "Canton"
 author: Bobby Craig
 maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3015.0515772683175!2d-81.43886068446304!3d40.91461497931046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8836d47bac9c5887%3A0x4b5fdee88369aec5!2sAkron-Canton+Airport!5e0!3m2!1sen!2sus!4v1485356671263"
+to-class:
+from-class:
 ---
 
 Yes... I'm still in Canton... for about another hour as I write this! But then I will be off. *All my bags are packed, I'm ready to go. I'm standing here outside your door. I hate to wake you up to say goodbye.* Heh, John Denver <3.

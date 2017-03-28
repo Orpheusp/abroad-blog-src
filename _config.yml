@@ -14,15 +14,15 @@ keep_files:
 
 
 # Site settings
-title: Bobby Abroad
+title: Im Ausland | Bobby's Travel Log
 subtitle: "Some documentation of Bobby's abroad trip!"
 # Base URL of site. It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
 # baseurl: "/" # the subpath of your site
-url: "http://abroadblog.github.io" # the base hostname & protocol for your site
-cover: "/assets/cover.png"
-logo: "/assets/logo.png"
+url: "http://bobbyabroad.github.io" # the base hostname & protocol for your site
+# cover: "/assets/cover.png"
+# logo: "/assets/logo.png"
 
 # Build settings
 markdown: kramdown
@@ -40,5 +40,3 @@ descriptions:
 
 source: /Users/bobbylcraig/Documents/GitHub/abroad-blog-src/
 destination: /Users/bobbylcraig/Documents/GitHub/bobbyabroad.github.io/
-
-gems: [jekyll-paginate]

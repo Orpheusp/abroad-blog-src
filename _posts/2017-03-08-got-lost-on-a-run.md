@@ -1,8 +1,11 @@
 ---
 layout: post
 title: "Lost On A Run!"
+location: "Bremen-Vegesack"
 author: Bobby Craig
 maps: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d306490.5907245428!2d8.456109!3d53.1199282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b12ca1e7c06c65%3A0x903fa1786c3fd4e9!2sJacobs+University+Bremen!5e0!3m2!1sen!2sus!4v1485542404476"
+to-class:
+from-class:
 ---
 
 Since I arrived in Germany, I've been trying to live a more healthy life. It's really difficult with the snacks and bread they have everywhere, but I'M TRYING. Not only have I been looking to better my diet, but I've also been trying to get a little more physically engaged lately. Namely, I've been trying to run daily. Interestingly enough, I feel most comfortable when running really late at night when no one is around, so I often leave for runs around 10 or 11pm.
