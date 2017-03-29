@@ -8,9 +8,11 @@ to-class: "BREMEN-TO-OSNABRUCK"
 to-id: "BRE-OSNA-1"
 from-class: "OSNABRUCK-TO-BREMEN"
 from-id: "OSNA-BRE-1"
+data-box-to: "2100 1700 500 400"
+data-box-from: "2125 1625 500 400"
 ---
 
-<div class="{{ page.to-class }}">
+<div class="{{ page.to-class }}" data-from="{% if page.data-box-from %}{{ page.data-box-from }}{% endif %}" data-to="{% if page.data-box-to %}{{ page.data-box-to }}{% endif %}">
 <p>While it's certainly not the most exciting destination, I made the decision to go to Osnabrück...and it honestly wasn't too bad! We found lots to do in Osnabrück, things to see, and weird art museums to go to. Thank God for free travel via our SemesterPass.</p>
 
 <p>When we first boarded the train, things were looking up. Soon after, these young parents and their 3 kids entered the train. Oh no. The entire duration of the trip to Osnabrück the kids screamed and yelled and it was miserable. Even more unfortunate was the fact that I didn't have my earbuds, so I had to rawdawg the entire train ride with the children yelling. Ugh.</p>
@@ -22,8 +24,10 @@ from-id: "OSNA-BRE-1"
 
 <p>Because we were rejected from the botanical gardens, we decided that we would head back in the way we came. When we found "civilization" again, a large chapel-like building appeared and made itself readily-available in our sight. Walking closer, it became evident that we had happened upon an art museum (Kunsthalle)...and a modern art museum at that. At the point that we arrived we were still in "German" speaking time, so we couldn't tell Thura we wanted to go into the museum. Therefore, we waited outside like fools until the time came that we could speak English to Thura. Thura agreed to join us in the Kunsthalle and so we discussed with the lady at the front and discovered it would be 3 Euros entrance. "Not terrible," we though. Dan and Thura hung their coats up and we entered the exhibit. It was...strange. There were overhead projectors projecting dust onto orange circles on the wall and a sculpture with a fan and a cassette player and a sculpture with a bunch of record players. We read the (mostly German) plaques beside the art and made our way through. There wasn't a lot of material, so it made sense that it was only 3 Euros for the entire exhibit. However, the crowning jewel was the last section we made our way through. The door opened and we grabbed burlap sacks to sit on. The reason the Kunsthalle looked like a chapel was because IT USED TO BE A CHAPEL. We walked into an old chapel that was entirely dark with weird mystical music playing and only light from the boarded windows shining through. We were told to sit down and enjoy ourselves for a short period of time...we weren't quite sure what to do. We sat for about 15 minutes, quasi-meditated, stared at the light on the wall...and then left.</p>
 
-<div class="{{ page.from-class }}">
-<p>The Kunsthalle was a strange experience (much akin to the modern art exhibit I saw with my friends Jo and Tristan two years prior), but it was definitely an interesting and fun one. Once we left we were instantly out of good ideas for things to do again. We walked around until our legs were sore and found a playground. With few kids around we did what any mature college-aged kids would do&mdash;we played! It was lots of fun, we got a little bit of a workout, and I discovered just how poor my balance is! Coffee was next, then a college campus visit, and finally we walked back to the train station and called it a day (did you like how a summed those events up in a single sentence since I'm sick of writing?).<p>
+<div class="{{ page.from-class }}" data-from="{% if page.data-box-to %}{{ page.data-box-to }}{% endif %}" data-to="{% if page.data-box-from %}{{ page.data-box-from }}{% endif %}">
+
+<p>The Kunsthalle was a strange experience (much akin to the modern art exhibit I saw with my friends Jo and Tristan two years prior), but it was definitely an interesting and fun one. Once we left we were instantly out of good ideas for things to do again. We walked around until our legs were sore and found a playground. With few kids around we did what any mature college-aged kids would do&mdash;we played! It was lots of fun, we got a little bit of a workout, and I discovered just how poor my balance is! Coffee was next, then a college campus visit, and finally we walked back to the train station and called it a day (did you like how a summed those events up in a single sentence since I'm sick of writing?).</p>
 
 <p>Unfortunately, the fun wasn't over. We grabbed a RB (regional bahn) train instead of a RE (regional express) train which tooks us almost 3 hours (it took about an hour on the way there). We missed dinner and it sucked. The train was dumb and I was super mad. Furthermore, Dan kept singing in the Bremen Hbf when waiting for the Bremen-Farge connection and I wanted to kick him. The end.</p>
+
 </div>

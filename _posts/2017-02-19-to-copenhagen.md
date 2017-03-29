@@ -8,9 +8,11 @@ to-class: "BREMEN-TO-COPENHAGEN"
 to-id: "BRE-COP-1"
 from-class: "COPENHAGEN-TO-BREMEN"
 from-id: "COP-BRE-1"
+data-box-to: "2300 1500 500 400"
+data-box-from: "2125 1625 500 400"
 ---
 
-<div class="{{ page.to-class }}">
+<div class="{{ page.to-class }}" data-from="{% if page.data-box-from %}{{ page.data-box-from }}{% endif %}" data-to="{% if page.data-box-to %}{{ page.data-box-to }}{% endif %}">
 <p>As promised, I'm writing this post on the way back from Copenhagen. Hopefully this means that I'm getting my shit together and will start to write my posts closer to the time of me actually doing them&mdash;knowing me, there's no way that's happening. BUT I CAN BE OPTIMISTIC!</p>
 
 <p>I arrived in Copenhagen around 8 o'clock at night on Friday. My train made it into the station, I took the stairs from the platform to the main station, and emerged into the bustling Copenhagen night. It's no secret that Europeans know how to party, but I found it absurd that no one was even partying yet. Of course, like Germans, the Danes don't even leave to party until 11 at the earliest (and a lot of times around 1:30am). I quickly made my way to a McDonald's in the train station for some free WiFi, got directions to Kristina's place, and made my way through the streets of Copenhagen.</p>
@@ -32,7 +34,7 @@ from-id: "COP-BRE-1"
 
 <p>From here, Sophie, Kristina, and I all did lots of touristy stuff. We went to Paper Island, we saw the little mermaid statue, we went to the Queen's house (haha), and we got to see the colorful houses (which I heard were all the rage). Kristina and Sophie had to depart early though, so it seemed like just as quick as we started seeing things we ended! <strong>However</strong>, after seeing those two I hung out with Seymour and Ashmita, so I wasn't entirely alone. I walked around for a little bit alone (I know, feel bad for me), but then Seymour and I met up and went to a cafe (where we didn't buy anything because we expected them to take our order but we were actually supposed to go order at the counter and get a number...who knew? haha) before picking up Ashmita at Nørreport Station.</p>
 
-<div class="{{ page.from-class }}">
+<div class="{{ page.from-class }}" data-from="{% if page.data-box-to %}{{ page.data-box-to }}{% endif %}" data-to="{% if page.data-box-from %}{{ page.data-box-from }}{% endif %}">
 <p>Ashmita, who is also studying in Copenhagen this semester, knew where all of the cool things to see were, so we tried quite a few places. Most notable, I feel, was the board game cafe, <a href="http://bastardcafe.dk">Bastard Café</a>. It was unfortunately filled to the brim, so we couldn't go. So, we settled on an Irish pub called The Dubliner (which I believe is probably a pub). We spent several hours here with two more Denison students, Will and Ceginna, who added a lot of fun to the afternoon. After 5 or so rounds, we left for some food before going out. But then I got a text from Sophie saying she would be going to bed at 11, so I should be at her house by then, so I had to leave them all to go to a karaoke bar by themselves. I went back to Kristina's for my backpack so I could get a shower and roughed my way through Copenhagen's extremely confusing and unclear (at least in my experience) transit system. It took me quite a bit longer than I was hoping to get to Sophie's apartment, but I made it a mere 20 minutes late! Sophie was tired, so I just got a shower and went to bed.</p>
 
 <p>Sunday morning (this morning) I made up for how late we woke up on Saturday. I got up at 7:30am, got dressed, gave Soph a hug goodbye, missed the bus and had to wait 20 minutes for the next one...but I still got to Kristina's bright and early! Ha-ha! We made our way to a cafe, had some breakfast, and then went sightseeing a tiny bit more. We saw plenty of government buildings, jumped on trampolines, and even got to go to Christiania (a hippie community that is basically the Homestead on steroids). At the end, I grabbed my bag from Kristina's and we headed for the train station. One last coffee was had, some food was bought, and I boarded the train.</p>

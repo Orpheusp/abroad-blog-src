@@ -1,6 +1,8 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 <script>
+  var map = document.getElementsByTagName("svg")[0];
+
   $(document).ready(function() {
     var x = document.getElementsByClassName("travel");
     var i;
@@ -50,6 +52,25 @@
     });
   }
 
+  function box_change( from, to, percent ) {
+    var from_list = from.split(" ");
+    var to_list = to.split(" ");
+    var new_viewbox = "";
+    var i;
+    for ( i=0; i < 4; i++ ) {
+      var diff = Math.abs(from_list[i] - to_list[i]);
+      if ( parseInt(from_list[i]) >= parseInt(to_list[i]) ) {
+        new_viewbox += Math.floor( (parseInt(from_list[i]) - (diff * percent)) );
+      }
+      else {
+        new_viewbox += Math.floor( (parseInt(from_list[i]) + (diff * percent)) );
+      }
+      new_viewbox += " ";
+    }
+    console.log(new_viewbox);
+    map.setAttribute("viewBox", new_viewbox);
+  }
+
   function draw_section(path_query, section_query, disap_speed) {
     var path = document.querySelector(path_query);
     var section = document.querySelector(section_query);
@@ -66,6 +87,7 @@
     } else {
       var path_percent = ((scrollTop - top) / (bottom - top));
       var offset_val = path_length - (path_length * path_percent);
+      box_change( section.getAttribute("data-from"), section.getAttribute("data-to"), path_percent );
     }
     path.style["stroke-dashoffset"] = offset_val;
 

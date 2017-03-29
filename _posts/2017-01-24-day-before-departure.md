@@ -8,7 +8,7 @@ to-class:
 from-class:
 ---
 
-Hello from Canton, Ohio (still...)! As I prepare for my departure tomorrow, I worry about the weight of my luggage and the timeliness of my planes tomorrow. How much would it suck to have a leg delayed enough that it throws everything off? Anyway, as I have prepped and sat at home doing nothing super exciting, like playing around with the computer and decorating my laptop case with stickers \[EDIT: <a href="/img/post-pics/IMG_2226.JPG">Here's the link</a>!] (NOT MY LAPTOP. JUST THE COVER. I might post pictures when I have time...), I've realized that I'm beyond excited for Bremen.
+Hello from Canton, Ohio (still...)! As I prepare for my departure tomorrow, I worry about the weight of my luggage and the timeliness of my planes tomorrow. How much would it suck to have a leg delayed enough that it throws everything off? Anyway, as I have prepped and sat at home doing nothing super exciting, like playing around with the computer and decorating my laptop case with stickers (NOT MY LAPTOP. JUST THE COVER. I might post pictures when I have time...), I've realized that I'm beyond excited for Bremen.
 
 I never thought I'd be nervous about studying abroad, but I've now realized how much there is to worry about logistically. The copious amounts of paperwork are rather daunting and the whole "making all new friends" aspect of abroad is equally scary. There's so much to do in such a small amount of time, and I've read online a lot about how difficult Jacobs' CS classes are. That's nerve-racking.
 

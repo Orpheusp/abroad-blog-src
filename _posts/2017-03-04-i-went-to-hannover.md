@@ -8,13 +8,15 @@ to-class: "HANNOVER-TO-BREMEN"
 to-id: "BRE-HAN-1"
 from-class: "BREMEN-TO-HANNOVER"
 from-id: "HAN-BRE-1"
+data-box-to: "2150 1700 500 400"
+data-box-from: "2125 1625 500 400"
 ---
 
-<div class="{{ page.to-class }}">
+<div class="{{ page.to-class }}" data-from="{% if page.data-box-from %}{{ page.data-box-from }}{% endif %}" data-to="{% if page.data-box-to %}{{ page.data-box-to }}{% endif %}">
 <p>Went to Hannover! Didn't do a ton, but I saw a lot. I spent the entire day in Hannover and only spent ~2 Euro, which I'm pretty proud of. I met two girls when I first got there and they were intrigued by my English so they showed me around. It was really nice being invited to walk around the city randomly by two people...kind of strange to be honest.</p>
 </div>
 
-<div class="{{ page.from-class }}">
+<div class="{{ page.from-class }}" data-from="{% if page.data-box-to %}{{ page.data-box-to }}{% endif %}" data-to="{% if page.data-box-from %}{{ page.data-box-from }}{% endif %}">
 <p>I got to see a farmers market, the Hannover Rathaus, and I went through the mall. Dariya and Daniel were supposed to join me on the trip but they weren't able to wake up on time––after being held back from going to Hannover once already by them, I decided to go without.</p>
 
 <p>Other than that, look on social media for pictures. I'm starting to get tired of writing blog posts unfortunately...that's why this isn't very detailed.</p>

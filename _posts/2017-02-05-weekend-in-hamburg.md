@@ -8,9 +8,11 @@ to-class: "BREMEN-TO-HAMBURG"
 to-id: "BRE-HAM-1"
 from-class: "HAMBURG-TO-BREMEN"
 from-id: "HAM-BRE-1"
+data-box-to: "2200 1600 500 400"
+data-box-from: "2125 1625 500 400"
 ---
 
-<div class="{{ page.to-class }}">
+<div class="{{ page.to-class }}" data-from="{% if page.data-box-from %}{{ page.data-box-from }}{% endif %}" data-to="{% if page.data-box-to %}{{ page.data-box-to }}{% endif %}">
 <p>I'm writing this quite a bit of time after coming back from Hamburg, so I'm hoping I can remember it all. Keep that in mind.</p>
 
 <p>Hamburg was a spur of the moment decision. We had talked about it quite a bit previously, but it wasn't until Thursday night that we decide we would leave on Friday night&mdash;I enjoy last minute decisions. We looked through the train schedule and realized we could catch a train Friday night for free with our SemesterPass and then we started to look for an AirBnB. I brought up the handy dandy map view, found a map that was close enough to the heart of Hamburg, and checked out a place that was around &euro;95 a night and booked it. It looked pretty adorable from the pictures, so we thought it seemed pretty nice. We bought the AirBnB and that was the last we thought about it.</p>
@@ -26,7 +28,7 @@ from-id: "HAM-BRE-1"
 
 <p>After the day's events everyone's feet were pretty tired. We looked for a quaint Irish pub but couldn't find one that was not packed to the brim, so we went to a store, bought some wine and beer, and we went back to Jenny's. On the way there, we stopped near the Alster and sat on a bench for a rather philosophical conversation for about half an hour. When we made it back, we continued the conversation but with some drinks&mdash;it was rather interesting. Lots of fun! Really relaxed and continued to late into the night.</p>
 
-<div class="{{ page.from-class }}">
+<div class="{{ page.from-class }}" data-from="{% if page.data-box-to %}{{ page.data-box-to }}{% endif %}" data-to="{% if page.data-box-from %}{{ page.data-box-from }}{% endif %}">
 <p>The next morning we got up early to prep the apartment for departure. We cleaned it so it looked like we were never even there and I even wrote a little note to Jenny. The previous night Dan and I noticed an American diner, so we headed there for breakfast. It was pretty yummy, but it was definitely not American diner quality, lol. We headed from here to the Hauptbahnhof, hopped on a train for Bremen, and went back to Jacobs.</p>
 
 <p>All the while, I planned my trip to Copenhagen in two weeks! I had a little bit of trouble with getting Huntington to accept my card abroad (and then I had trouble confirming it was me because their texting system is dumb) but it all worked out in the end! Woo! So Cope in two weeks.</p>
