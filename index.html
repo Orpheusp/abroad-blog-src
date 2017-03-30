@@ -15,19 +15,23 @@ layout: default
 	<em>&ldquo;I'm broke as hell,<br>but at least I'm rich in memories.&rdquo;</em>
   <span>Dariya Koleva</span>
 </div>
-<div class="container story">
+<div class="story">
 	<div class="row">
-		<div class="col-md-6 fuzz-out">
+		<div class="fuzz-out">
 			{% for post in site.posts reversed %}
-				<h1>{{ post.title }}</h1>
-				<hr>
-				<h3>{{ post.location }}</h3>
-				<h5><em>{{ post.date | date: "%B %-d, %Y" }}</em></h5>
-				<hr>
-				{{ post.content }}
-				<br>
+				<div class="blog-post">
+					<h3 class="location-text">{{ post.location }}</h3>
+					<h1 class="post-heading">{{ post.title }}</h1>
+					<!-- <h5><em>{{ post.date | date: "%B %-d, %Y" }}</em></h5> -->
+					{{ post.content }}
+				</div>
 			{% endfor %}
-			<div class="map-view"></div>
+			<div class="quotation">
+				<blockquote>
+					This quote is inspiring.
+					<span>Bobby Craig</span>
+				</blockquote>
+			</div>
 		</div>
 		<div class="fixed-box">
 			{% include map.html %}

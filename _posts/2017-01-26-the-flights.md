@@ -9,7 +9,7 @@ to-id: "USA-BRE-1"
 from-class:
 from-id:
 data-box-from: "150 1500 2000 1600"
-data-box-to: "1775 1650 500 400"
+data-box-to: "1675 1650 500 400"
 ---
 
 It was a rather...long...process getting here, but I have finally arrived, jet-lagged but still ready to have a good time! I haven't written anything on this blog since before my first flight, so it might make sense to cover that entire duration.

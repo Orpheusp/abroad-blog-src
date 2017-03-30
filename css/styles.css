@@ -1,11 +1,115 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
 
 html, body {
   overflow-x:hidden;
+  -webkit-font-smoothing: antialiased;
+  padding: 0;
+  margin: 0;
+  width: 100%;
 }
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  display: block;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+}
+
+blockquote {
+  font-style: italic;
+}
+
+#main-map {
+  fill: #f6ffff;
+}
+
+#main-map path {
+  fill: #FDFCEC;
+  stroke: #ddd;
+  stroke-width: 1px;
+}
+
+.quotation  blockquote {
+  font-size: 2em;
+  line-height: 1.5;
+  position: relative;
+  color: #939997;
+  text-align: left;
+  font-family: 'Libre Baskerville', Garamond, serif;
+  font-style: italic;
+}
+
+.quotation  blockquote::before {
+  font-family: 'Libre Baskerville', Garamond, serif;
+  content: "\201C";
+  position: absolute;
+  right: 100%;
+  font-size: 2.5em;
+  font-style: italic;
+  top: -0.15em;
+  color: #F0F3F3;
+  margin: 0 0.075em 0 0;
+  line-height: 1;
+}
+
+.quotation blockquote span {
+  font-size: 0.5em;
+  color: #CBCECE;
+  white-space: nowrap;
+  font-family: 'Nunito Sans', sans-serif;
+  font-style: normal;
+}
+
+.quotation blockquote span::before {
+  content: " - ";
+}
+
 
 p {
   font-size: 1.25em;
+  font-family: 'Nunito Sans', sans-serif;
+  color: #777;
+  line-height: 2em;
+}
+
+.location-text {
+  font-size: 1.5em;
+  color: #ccc;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  transform : scale(1,0.9);
+  padding: 0;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0.4em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+.blog-post {
+  margin-top: 12em;
+  margin-bottom: 5em;
+}
+
+.post-heading {
+  color: #555;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+h1 {
+  font-size: 4em;
+  font-family: 'Libre Baskerville', Garamond, serif;
 }
 
 .fixed-box {
@@ -28,7 +132,7 @@ p {
 
 path.travel {
   stroke-width: 4;
-  stroke: red;
+  stroke: #47DBB4;
 }
 
 .hero-image {
@@ -152,20 +256,21 @@ path.travel {
 
 }
 
-.container.story {
-
-}
-
 .fuzz-out {
   padding-top: 4em;
   padding-bottom: 4em;
-  background-color: rgba(255, 255, 255, 0.95);
-  box-shadow: 0px 0px 20px 20px rgba(255,255,255,0.95);
+  padding-left: 5em;
+  padding-right: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 0px 60px 40px rgba(255,255,255,0.9);
+  width: 50%;
 }
 
 @media (max-width: 992px) {
   .fuzz-out {
-    background-color: rgba(255, 255, 255, 0.55);
-    box-shadow: 0px 0px 40px 20px rgba(255,255,255,0.55);
+    width: 100%;
+    padding-right: 5em;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 0px 40px 20px rgba(255,255,255,0.9);
   }
 }

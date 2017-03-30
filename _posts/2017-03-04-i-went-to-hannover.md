@@ -8,8 +8,8 @@ to-class: "HANNOVER-TO-BREMEN"
 to-id: "BRE-HAN-1"
 from-class: "BREMEN-TO-HANNOVER"
 from-id: "HAN-BRE-1"
-data-box-to: "1825 1700 500 400"
-data-box-from: "1775 1650 500 400"
+data-box-to: "1725 1700 500 400"
+data-box-from: "1675 1650 500 400"
 ---
 
 <div class="{{ page.to-class }}" data-from="{% if page.data-box-from %}{{ page.data-box-from }}{% endif %}" data-to="{% if page.data-box-to %}{{ page.data-box-to }}{% endif %}">

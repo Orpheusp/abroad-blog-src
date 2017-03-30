@@ -13,14 +13,14 @@
       x[i].style.visibility = "visible";
     }
 
-    var y = document.querySelectorAll("#points circle");
-    var j;
-    for (j = 0; j < y.length; j++) {
-      var x_coord = parseFloat(y[j].getAttribute('cx'))+8;
-      var y_coord = parseFloat(y[j].getAttribute('cy'))+8;
-      var sentence = '<text class="' + y[j].id + '-text" x="' + x_coord + '" y="' + y_coord + '" font-family="Verdana" font-size="12" fill="black">' + y[j].id + '</text>';
-      y[j].insertAdjacentHTML( 'beforeBegin', sentence );
-    }
+    // var y = document.querySelectorAll("#points circle");
+    // var j;
+    // for (j = 0; j < y.length; j++) {
+    //   var x_coord = parseFloat(y[j].getAttribute('cx'))+8;
+    //   var y_coord = parseFloat(y[j].getAttribute('cy'))+8;
+    //   var sentence = '<text class="' + y[j].id + '-text" x="' + x_coord + '" y="' + y_coord + '" font-family="Verdana" font-size="12" fill="black">' + y[j].id + '</text>';
+    //   y[j].insertAdjacentHTML( 'beforeBegin', sentence );
+    // }
 
     // Run the function in case of window resize
     $(window).resize(function() {
@@ -47,8 +47,9 @@
     $('.hero-image').css({
         height: $(window).height()
     });
-    $(".map-view").css({
-        height: $(window).height()
+    $("svg").css({
+        height: $(window).height(),
+        width: $(window).width()
     });
   }
 
@@ -67,7 +68,6 @@
       }
       new_viewbox += " ";
     }
-    console.log(new_viewbox);
     map.setAttribute("viewBox", new_viewbox);
   }
 
@@ -88,13 +88,15 @@
       var path_percent = ((scrollTop - top) / (bottom - top));
       var offset_val = path_length - (path_length * path_percent);
       box_change( section.getAttribute("data-from"), section.getAttribute("data-to"), path_percent );
+      console.log(path_length);
     }
     path.style["stroke-dashoffset"] = offset_val;
 
     if ( scrollTop > bottom + 100 ) {
       var perc_past = 1 - ((scrollTop - bottom) / disap_speed);
-      if ( perc_past < 0.15 )
-        perc_past = 0.15;
+      if ( perc_past < 0.05 ) {
+        perc_past = 0.05;
+      }
       path.style.opacity = perc_past;
     }
     else {

@@ -8,8 +8,8 @@ to-class: "BREMEN-TO-AMSTERDAM"
 to-id: "BRE-AMS-1"
 from-class: "AMSTERDAM-TO-BREMEN"
 from-id: "AMS-BRE-1"
-data-box-to: "1625 1725 500 400"
-data-box-from: "1775 1650 500 400"
+data-box-to: "1525 1725 500 400"
+data-box-from: "1675 1650 500 400"
 ---
 
 <p>In trying to continue with the trend of writing these posts frequently, I'm going to (hopefully) finish writing and uploading this by tonight (Monday). If not, I'm going to feel super ashamed...although probably not much remorse. [Edit: I totally didn't finish this on Monday night...]</p>
