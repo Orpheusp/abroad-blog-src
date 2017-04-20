@@ -14,6 +14,6 @@ Last night, I left for a run at 11:30pm expecting it to be a normal run. I took 
 
 At this point, I continue to walk forward hoping that I'd find my way, I get passed by some suspicious looking police officers, and I realize that I'm doing all of this at 12:30 at night...awkward.
 
-Eventually I found a sign that was directing me for Haven Höövt and followed it. While this lead me to a place I was familiar with, I still had a long way to walk. Suspicious stares from Turkish men in spielhalles were frequent and I walked down the poorly lit German rode (probably at 1am now) in the cold. It was unfortunate, haha. Still, I tried to be optimistic. I enjoyed the night air and stretched my legs on the way back to Jacobs.
+Eventually I found a sign that was directing me for Haven Höövt and followed it. While this lead me to a place I was familiar with, I still had a long way to walk. Suspicious stares from Turkish men in spielhalles were frequent and I walked down the poorly lit German road (probably at 1am now) in the cold. It was unfortunate, haha. Still, I tried to be optimistic. I enjoyed the night air and stretched my legs on the way back to Jacobs.
 
 When I got back, I realized I had probably gone about 9mi in all and my legs hurt like a bitch. But yeah, that's my story about how I got lost in my own German neighborhood.
