@@ -135,6 +135,11 @@ path.travel {
   stroke: #47DBB4;
 }
 
+path.travel.travel-israel {
+  stroke-width: 2;
+  stroke: #47DBB4;
+}
+
 .hero-image {
   position:relative;
   width: 100%;
@@ -272,5 +277,8 @@ path.travel {
     padding-right: 5em;
     background-color: rgba(255, 255, 255, 0.9);
     box-shadow: 0px 0px 40px 20px rgba(255,255,255,0.9);
+  }
+  svg {
+    display: none;
   }
 }

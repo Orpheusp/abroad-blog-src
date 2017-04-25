@@ -13,14 +13,14 @@
       x[i].style.visibility = "visible";
     }
 
-    // var y = document.querySelectorAll("#points circle");
-    // var j;
-    // for (j = 0; j < y.length; j++) {
-    //   var x_coord = parseFloat(y[j].getAttribute('cx'))+8;
-    //   var y_coord = parseFloat(y[j].getAttribute('cy'))+8;
-    //   var sentence = '<text class="' + y[j].id + '-text" x="' + x_coord + '" y="' + y_coord + '" font-family="Verdana" font-size="12" fill="black">' + y[j].id + '</text>';
-    //   y[j].insertAdjacentHTML( 'beforeBegin', sentence );
-    // }
+    var y = document.querySelectorAll("#points circle");
+    var j;
+    for (j = 0; j < y.length; j++) {
+      var x_coord = parseFloat(y[j].getAttribute('cx'))+8;
+      var y_coord = parseFloat(y[j].getAttribute('cy'))+3;
+      var sentence = '<text class="' + y[j].id + '-text" x="' + x_coord + '" y="' + y_coord + '" font-family="Verdana" font-size="8" fill="black">' + y[j].id + '</text>';
+      y[j].insertAdjacentHTML( 'beforeBegin', sentence );
+    }
 
     // Run the function in case of window resize
     $(window).resize(function() {
