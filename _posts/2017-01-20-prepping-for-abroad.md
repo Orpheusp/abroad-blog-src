@@ -10,4 +10,4 @@ from-class:
 
 I'm prepping for abroad! One of my biggest traveling weaknesses is packing at the last second (which I still haven't remedied...), but I'm actually planning lots of things ahead of time. For example, today I went out and, along with a few errands my mum wanted me to run, I bought some luggage tags (yeah, it was about time) and got some Euros because currency conversion is wack and crazy expensive!
 
-Also, I'm just kind of testing out this blogging format. I'm hosting it for free with GitHub pages and using the static site generator, <a href="https://jekyllrb.com/">Jekyll</a>. It's pretty nifty and I can post about it some time if that's of interest...if anybody even reads this.
+Also, I'm just kind of testing out this blogging format. I'm hosting it for free with GitHub pages and using the static site generator, <a href="https://jekyllrb.com/">Jekyll</a>. It's pretty nifty and I can post about it sometime if that's of interest...if anybody even reads this.
